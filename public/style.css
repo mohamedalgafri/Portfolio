@@ -1,0 +1,17 @@
+
+
+.imageCard{
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageCard img{
+    height: 100%;
+}
+
+.aurora-container {
+    width: 100%;
+    height: 100%;
+}
