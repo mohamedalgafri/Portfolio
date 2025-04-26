@@ -69,14 +69,13 @@ const navItems: NavItem[] = [
     border-color: #ffffff10;
     border-radius: 9999px;
   }
-
+  nav a{
+    color: #fff;
+  }
   nav a.active .nav-indicator {
-    transform: translateY(-50%) scale(1);
-    opacity: 1;
   }
 
   nav a.active {
-    color: white !important;
   }
 
   @media (max-width: 767px) {
@@ -184,7 +183,4 @@ const navItems: NavItem[] = [
     }
   }
 
-  nav a.active {
-    color: white !important;
-  }
 </style>
